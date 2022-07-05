@@ -1,0 +1,19 @@
+.channelColumn {
+ margin: 1rem;
+ display: flex;
+ align-items: center;
+}
+ .channelColumn >img {
+    max-width: 29rem;
+ }
+ .channelColumn_text {
+    margin: 1rem;
+ }
+ .channelColumn_text_1{
+    display: flex;
+    align-items: center;
+ }
+ .channelColumn_text_1 >p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+ }

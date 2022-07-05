@@ -1,0 +1,25 @@
+
+.videoCard {
+    margin-bottom: 0.7rem;
+    width: 30rem;
+}
+.videocard_thumbnail{
+   max-width: 29rem;
+   max-height: 17rem;  
+   
+}
+.videoCard .video_info{
+    display: flex;
+    align-items: center;   
+}
+.videoCard .video_text {
+    margin: 1rem;
+}
+.videoCard .video_text h4,p{
+    color: rgb(65, 60, 60);
+    font-size: 1.4rem;
+}
+ .video_avtar{
+    width: 3rem !important;
+    height: 3rem !important;
+ }  
