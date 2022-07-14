@@ -4,7 +4,7 @@ import Video from "./Video";
 const RecommendedVideo = () => {
   return (
     <div className="reconmended">
-      <h1>Recommended</h1>
+      <h1>Recommend</h1>
       <div className="recommendedVideos_video">
       <Video />
       <Video />
