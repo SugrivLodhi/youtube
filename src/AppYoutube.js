@@ -12,6 +12,15 @@ const AppiYoutube = () => {
       <div className="app">
         <Header />
         <Routes>
+        <Route
+        path="/"
+        element={
+          <div className="app_page">
+            <SideBar />
+            <RecommendedVideo />
+          </div>
+        }
+      />
           <Route
             path="/searchPage/:search"
             element={
@@ -21,15 +30,7 @@ const AppiYoutube = () => {
               </div>
             }
           />
-          <Route
-            path="/"
-            element={
-              <div className="app_page">
-                <SideBar />
-                <RecommendedVideo />
-              </div>
-            }
-          />
+        
         </Routes>
       </div>
     </Router>
